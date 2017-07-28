@@ -1,97 +1,41 @@
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Tommy Prud'homme">
-    <meta name="robots" content="index, follow">
-    <meta name="DC.Language" content="fr">
-    <meta name="geo.placename" content="Joliette, québec">
-    <meta name="geo.region" content="ca-qc">
-	<meta property="og:type" content="article">
-	<meta property="og:title" content="Linuks">
-	<meta property="og:url" content="http://www.youplay.duckdns.org">
-	<meta property="og:site_name" content="Linuks">
-	<meta property="og:description" content="A home for my school projects">
-	<title>Linuks</title>
-	<meta name="title" content="Linuks">
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
+	<?php include 'head.php';?>
 </head>
 <body>
-	<div class="container-fluid">
-		<div class="row main-menu border3">
-			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 logoside">
-				<img src="./img/linuks.png" class="logo" align="middle"/>
-			</div>
-			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 listside border2">
-				<div id="Box-div">
-						<a href="./_flappyfish/flappyfish.php"><img src="./img/icons/flappyfish.png" align="middle" class="icon"/></a>
-						<div class="text">
-							<p class="BoldSpan"><b>FlappyFish</b></p>
-							<p class="BookSpan">Le FlappyBird Clone</p>
-						</div>
-						<br>
-						<a href="./_ssb/ssb.php"><img src="./img/icons/student.png" align="middle" class="icon"/></a>
-						<div class="text">
-							<p class="BoldSpan"><b>Super School Brothers</b></p>
-							<p class="BookSpan">Le Mario Bros Clone?</p>
-						</div>
-						<br>
-						<a href="content-loader.php?type=link&name=./_licorne/index.html"><img src="./img/icons/licorne.png" align="middle" class="icon"/></a>
-						<div class="text">
-							<p class="BoldSpan"><b>Site de Licorne</b></p>
-							<p class="BookSpan">Parce qu'on aime tous les licornes!</p>
-						</div>
-						<br>
-						<!--
-						<a href="content-loader.php?type=pdf&name=workinprogress.png"><img src="./img/icons/fireball.png" align="middle" class="icon"/></a>
-						<div class="text">
-							<p class="BoldSpan"><b>Ancien Site</b></p>
-							<p class="BookSpan">Le site de licornes nettoyé</p>
-						</div>
-						<br>
-						-->
-						<a href="content-loader.php?type=link&name=./_league/index.php"><img src="./img/icons/fireball.png" align="middle" class="icon"/></a>
-						<div class="text">
-							<p class="BoldSpan"><b></b>Project FireBall</p>
-							<p class="BookSpan">Nouveau Site en cours de développement</p>
-						</div>
-						<br>
-						<a href="content-loader.php?type=pdf&name=workinprogress.png"><img src="./img/icons/download.png" class="icon"/></a>
-						<div class="text">
-							<p class="BoldSpan"><b>Downloads</b></p>
-							<p class="BookSpan">La section téléchargement</p>
-						</div>
-						<br>
-						<a href="./mail_form.php"><img src="./img/icons/contactus.png" class="icon"/></a>
-						<div class="text">
-							<p class="BoldSpan"><b>Nous contacter</b></p>
-							<p class="BookSpan">Pour du feedback!</p>
-						</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<nav class="navbar navbar-inverse navbar-fixed-bottom">
-		<div class="container-fluid navbar-nav">
-			<a href="./"><span id="back-arrow-btn" class="glyphicon glyphicon-arrow-left"></p></a>
-			<div class="navlogo border">
-				<img src="./img/linuks.png" align="middle"/>
-			</div>
-		</div>
-	</nav>
-	<script src="./js/jquery.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script>
-	$(function() {
-	  $('.center-it').css({
-        'position' : 'absolute',
-        'top' : '50%',
-        'margin-top' : function() {return -$(this).outerHeight()/2}
-    });
-	});
-	</script>
+<?php include 'topdocument.php';?>
+	<h1 class="page-header">Welcome to My Home</h1>
+	<p class="lead">This is my new take at making my own personnal website. </p>
+	<p>I want to learn programmming by myself creating many projects from small to medium size. For now, I know some C#, Java, PHP, Javascript, HTML5/CSS3 and a small scripting language called Autohotkey.</p>
+	<p>Feel free to explore my website, play with everything, but keep in mind that this is far from being complete.</p>
+	<p>Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+	<h3>Scroll, i like my scroll!</h3>
+	<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+	<blockquote>Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</blockquote>
+	<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum.</p>
+	<p>Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+	<h3>Still scrolling? Could you get a life?</h3>
+	<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+	<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+	<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum.</p>
+	<p>Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+	<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+	<h3>Wow, you really like to scroll!</h3>
+	<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+	<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum.</p>
+	<p>Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+	<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+	<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+	<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum.</p>
+	<p>Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+	<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+	<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum.</p>
+	<p>Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+	<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+	<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+	<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum.</p>
+	<h3>Is my website this uninteresting? you could explore other parts of it uh?</h3>
+<?php include 'bottomdocument.php';?>
+<?php include 'footer.php';?>
 </body>
 </html>
